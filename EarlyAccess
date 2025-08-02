@@ -1,1 +1,2 @@
-game:GetService("ReplicatedStorage").Modules.UpdateService["Corrupted Zen"].Parent = workspace
+workspace.ZenEvent:Destroy()
+game:GetService("ReplicatedStorage").Modules.UpdateService.CookingEvent.Parent = workspace
